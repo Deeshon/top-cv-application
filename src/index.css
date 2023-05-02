@@ -1,13 +1,74 @@
-body {
+html, body {
+  width: 100%;
+  height: 100%;
   margin: 0;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    overflow: auto;
+    background-color: lightgrey;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.application-container {
+  background-color: white;
+  margin-left: 25%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 55%;
+  min-height: 900px;
+  height: fit-content;
+  box-shadow: 0.2px 0.2px 7px 0.2px black;
 }
+
+.header {
+  background-color: rgb(20, 62, 114);
+  color: white;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.main-container {
+  background-color: white;
+  width: 70%;
+  /* min-height: 100%; */
+  height: 100%;
+}
+
+.section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  color:rgb(20, 62, 114);
+  line-height: 0px;
+  padding-top: 20px;
+}
+
+.year {
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.sub-container {
+  background-color: rgb(223, 222, 222);
+  width: 30%;
+  min-height: 900px;
+  height: fit-conten;
+}
+.profile-img {
+  margin-top: 40px;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  background: url("./profile-removebg-preview.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
