@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/top-cv-application/static/css/main.f6afaf0f.css",
+    "main.js": "/top-cv-application/static/js/main.c321c7cb.js",
+    "static/js/787.5965b423.chunk.js": "/top-cv-application/static/js/787.5965b423.chunk.js",
+    "static/media/profile-removebg-preview.png": "/top-cv-application/static/media/profile-removebg-preview.6ffa16e0f3b6f203139f.png",
+    "index.html": "/top-cv-application/index.html",
+    "main.f6afaf0f.css.map": "/top-cv-application/static/css/main.f6afaf0f.css.map",
+    "main.c321c7cb.js.map": "/top-cv-application/static/js/main.c321c7cb.js.map",
+    "787.5965b423.chunk.js.map": "/top-cv-application/static/js/787.5965b423.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6afaf0f.css",
+    "static/js/main.c321c7cb.js"
+  ]
+}
