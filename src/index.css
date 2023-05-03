@@ -12,7 +12,7 @@ body {
     background-color: lightgrey;
 }
 
-.application-container {
+.application-container, .form-container {
   background-color: white;
   margin-left: 25%;
   margin-top: 100px;
@@ -29,6 +29,7 @@ body {
   padding-left: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+  min-height: 100px;
 }
 
 
@@ -70,5 +71,49 @@ h3 {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.form-container {
+  background-color: rgb(239, 238, 238);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+.form-section {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+textarea {
+  padding-top: 10px;
+}
+
+input, button {
+  height: 40px;
+}
+
+input[type=button], button {
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+input[type=button]:hover {
+  cursor: pointer;
+  border: 1px solid white
+}
+
 
 
